@@ -1,0 +1,142 @@
+/* 
+    Author: Kerol
+    Theme: Food Order System Admin
+    Version: 1.0
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    wifth: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #ff6b6b;
+    padding: 1%;
+    color: #222f3e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #ee5253;
+}
+
+.btn-secondary{
+    background-color: #48dbfb;
+    padding: 1%;
+    color: #222f3e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #0abde3;
+}
+
+.btn-danger{
+    background-color:  #ff6b6b;
+    padding: 1%;
+    color: #222f3e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ee5253;
+}
+
+.success{
+    color: #10ac84;
+}
+
+.error{
+    color: #ee5253;
+}
+
+/* MENU CSS */
+.menu{
+border-bottom: 1px solid grey;
+}
+.menu ul{  
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #222f3e;
+}
+
+.menu ul li a:hover{
+    color:#c8d6e5;
+}
+
+/* MAIN CONTENT CSS */
+.main-content{
+    background-color: #c8d6e5;
+    padding: 3% 0
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* FOOTER CSS */ 
+.footer {
+    background-color: #ee5253;
+    color: #222f3e;
+}
+.footer .wrapper p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #222f3e;
+}
+
+/* CSS FOR LOGIN */
+.login{
+    width:30%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+}
